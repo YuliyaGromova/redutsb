@@ -1,0 +1,71 @@
+/* Gilroy 400, 700 */
+
+
+
+/* 300 */
+@font-face {
+  font-family: "Proxima Nova Condensed Light";
+  src: url("../fonts/proxima_nova_condensed_light.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/proxima_nova_condensed_light.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/proxima_nova_condensed_light.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/proxima_nova_condensed_light.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/proxima_nova_condensed_light.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/proxima_nova_condensed_light.svg#proxima_nova_condensed_light")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+      font-weight: 300;
+  font-display: swap;
+}
+
+
+/* 400 */
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/fonts/proxima_nova_condensed_regular.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/fonts/proxima_nova_condensed_regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/fonts/proxima_nova_condensed_regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/fonts/proxima_nova_condensed_regular.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/fonts/proxima_nova_condensed_regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/fonts/proxima_nova_condensed_regular.svg#proxima_nova_condensed_regular")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+  font-weight: 400;
+  font-display: swap;
+}
+
+
+@font-face {
+  src: url(../fonts/Web/Inter-Regular.woff) format("woff"),
+    url(../fonts/Web/Inter-Regular.woff2) format("woff2"),
+    url(../fonts/Desktop/Inter-Regular.ttf) format("truetype");
+  font-family: "Inter";
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  src: url(../fonts/Web/Inter-Medium.woff) format("woff"),
+    url(../fonts/Web/Inter-Medium.woff2) format("woff2"),
+    url(../fonts/Desktop/Inter-Medium.ttf) format("truetype");
+  font-family: "Inter";
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Web/Inter-Black.woff) format("woff"),
+    url(../fonts/Web/Inter-Black.woff2) format("woff2"),
+    url(../fonts/Desktop/Inter-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-display: swap;
+}

@@ -1,0 +1,124 @@
+.info {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 84%;
+  max-width: 1600px;
+  display: flex;
+  border-bottom: 1px solid #F3F3F9;
+}
+
+.info__logo {
+  margin: 0;
+  padding: 0;
+  width: 157px;
+  height: 53px;
+  background-image: url(../../images/c3c95d3a4f46f5d5129c80cd34589b11.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.info__search {
+  margin: 0;
+  margin-left: 31px;
+  margin-right: 17px;
+  padding: 14px 20px;
+  border: 1px solid green;
+  width: 25%;
+  max-width: 390px;
+  background-color: #f9f9fc;
+  /* background-color: green; */
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__text {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  width: 100%;
+}
+
+.info__loupe {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/loupe.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.info__info {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__contacts {
+  margin: 0;
+  padding: 0;
+}
+
+.info__label {
+  margin: 0;
+  padding: 0;
+  color: #adadaf;
+  font-family: Gilroy;
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: 147.5%;
+  letter-spacing: 0.14px;
+}
+
+.info__contact {
+  margin: 0;
+  padding: 0;
+  color: #252426;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 142.5%;
+}
+
+.info__icons {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px; 
+}
+
+.info__button {
+    margin: 0;
+    padding: 15px;
+    width: 54px;
+    height: 54px;
+    border: none;
+    background-color: #F9F9FC;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+}
+
+.slider {
+  background-image: url(../../images/slider.png);
+}
+
+.heart {
+  background-image: url(../../images/heart.png);
+}
+
+.bag {
+  background-image: url(../../images/bag.png);
+  background-size: 17px;
+}
+
