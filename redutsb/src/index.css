@@ -16,4 +16,5 @@ code {
 @import url(./components/App/app.css);
 @import url(./components/Header/header.css);
 @import url(./components/Info/info.css);
+@import url(./components/NavTab/nav-tab.css);
 @import url(./components/Footer/footer.css);

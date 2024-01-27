@@ -24,7 +24,7 @@ function Info() {
             <div className="info__icons">
                 <button className="info__button slider"></button>
                 <button className="info__button heart"></button>
-                <button className="info__button bag"></button>
+                <button className="info__button bag"><div className="bag__current">1</div></button>
                 {/* сделать счетчик товаров в корзине */}
                 <div className=""><p className="info__label">Корзина</p>
                 <p className="info__contact">0 &#8381;</p> 
