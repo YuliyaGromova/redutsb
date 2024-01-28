@@ -18,4 +18,10 @@ code {
 @import url(./components/Info/info.css);
 @import url(./components/NavTab/nav-tab.css);
 @import url(./components/History/history.css);
+
+@import url(./components/Main/main.css);
+@import url(./components/Pages/pages.css);
+@import url(./components/Banner/banner.css);
+
+
 @import url(./components/Footer/footer.css);

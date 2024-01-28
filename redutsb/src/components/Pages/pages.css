@@ -1,0 +1,60 @@
+.pages {
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 10px;
+  width: 84%;
+  max-width: 1600px;
+  display: flex;
+  list-style: none;
+  gap: 6px;
+}
+
+.pages__tree {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 6px;
+}
+
+.pages__parent {
+  margin: 0;
+  padding: 0;
+  color: #adadaf;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 139%; /* 22.24px */
+  letter-spacing: 0.16px;
+}
+
+.pages__child {
+  margin: 0;
+  padding: 0;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 139%; /* 22.24px */
+  letter-spacing: 0.16px;
+}
+
+.pages__down {
+  width: 16px;
+  margin: 0;
+  padding: 0;
+  background-image: url(../../images/down18.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.pages__arrow {
+  margin: 0;
+  padding: 0;
+  width: 16px;
+  background-image: url(../../images/arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
