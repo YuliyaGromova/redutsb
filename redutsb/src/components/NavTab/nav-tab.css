@@ -48,14 +48,13 @@
   text-align: center;
   font-weight: 400;
 
-  background-color: rgba( 0, 0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .nav-tab__button-down {
-    
-    margin: 0;
-    padding: 0;
-
-    object-fit: contain;
-    object-position: bottom;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -2px;
+  object-fit: contain;
+  object-position: bottom;
 }
