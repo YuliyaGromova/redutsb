@@ -22,6 +22,10 @@ code {
 @import url(./components/Main/main.css);
 @import url(./components/Pages/pages.css);
 @import url(./components/Banner/banner.css);
+@import url(./components/Description/description.css);
+@import url(./components/Calculator/calculator.css);
+@import url(./components/OptionsList/option-list.css);
+@import url(./components/Option/option.css);
 
 
 @import url(./components/Footer/footer.css);
