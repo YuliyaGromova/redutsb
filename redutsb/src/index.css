@@ -24,6 +24,8 @@ code {
 @import url(./components/Banner/banner.css);
 @import url(./components/Description/description.css);
 @import url(./components/Calculator/calculator.css);
+@import url(./components/StepsCount/step-count.css);
+@import url(./components/Step/step.css);
 @import url(./components/OptionsList/option-list.css);
 @import url(./components/Option/option.css);
 

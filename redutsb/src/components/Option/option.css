@@ -29,8 +29,10 @@
   padding: 0;
   padding-top: 12px;
   padding-bottom: 10px;
-  display: flex;
+  display: grid;
   justify-content: center;
+  grid-template-columns: 9px 9px max-content;
+  grid-template-rows: 1fr;
 }
 
 .option_active {
@@ -38,23 +40,54 @@
   color: #fff;
 }
 
+.option__radio {
+  margin:  0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  opacity: 0%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  order: 2;
+}
+
 .option__check {
   margin: 0;
   padding: 0;
-  padding-left: 11px;
+  
   background-image: url(../../images/range.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 18px;
   height: 18px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
-.option__check_active {
+
+
+
+
+.option__radio:checked + .option__check {
   background-image: url(../../images/check.png);
+  background-color: #0075ff;
 }
+
 
 .option__option-title {
   margin: 0;
   padding: 0;
+  padding-left: 11px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }

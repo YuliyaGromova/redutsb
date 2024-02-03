@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Option from "../Option/Option";
+// import Steps from "../../utils/Steps";
 
 function OptionsList(props) {
-  const list = props.step;
+  // const stepActive = props.step;
+const list = props.options;
+  useEffect (() => {
+    
+  },[])
+  // const list = Steps.find(step => step.step === stepActive).options;
+  
 
   const optionList = list.map((item, i) => (
     <Option option={item} key={item.id}></Option>

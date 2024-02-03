@@ -40,41 +40,7 @@
   letter-spacing: 0.52px;
 }
 
-.calculator__steps {
-  margin: 0;
-  padding: 0;
-  padding-top: 20px;
-  list-style: none;
-  display: flex;
-}
 
-.calculator__step {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-
-.step__count {
-  margin: 0;
-  padding: 0;
-  width: 52px;
-  height: 52px;
-  background-color: #f3f3f9;
-  border-radius: 50%;
-  color: #252426;
-  text-align: center;
-  /* Titles/H7 */
-  font-family: Gilroy;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 52px;
-}
-
-.step__count_active {
-  background: linear-gradient(135deg, #209efa 0%, #0075ff 100%);
-  color: #fff;
-}
 
 .calculator__options {
   margin: 0;
