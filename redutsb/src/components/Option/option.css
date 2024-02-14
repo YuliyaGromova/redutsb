@@ -1,3 +1,16 @@
+/* .option {
+  margin: 0;
+  padding: 0;
+  max-width: 176px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.04);
+  background-color: #fcfcff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 400;
+} */
+
 .option {
   margin: 0;
   padding: 0;
@@ -9,30 +22,67 @@
   font-family: Gilroy;
   font-size: 18px;
   font-weight: 400;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 50px;
 }
+
+.option__radio {
+  margin:  0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: flex;
+  order: 2;
+}
+
+/* .option__photo {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 106%;
+  max-height: 187px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
 
 .option__photo {
   margin: 0;
   padding: 0;
   width: 100%;
-  /* max-width: 177px; */
-  height: 106%;
+  height: 116%;
   max-height: 187px;
-  /* border: 1px solid red; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
+
 
 .option__description {
   margin: 0;
   padding: 0;
   padding-top: 12px;
   padding-bottom: 10px;
-  display: grid;
+  /* display: grid;
   justify-content: center;
   grid-template-columns: 9px 9px max-content;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr; */
+  display: flex;
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .option_active {
@@ -40,7 +90,7 @@
   color: #fff;
 }
 
-.option__radio {
+/* .option__radio {
   margin:  0;
   padding: 0;
   width: 18px;
@@ -52,7 +102,7 @@
   grid-row-end: 2;
   display: flex;
   order: 2;
-}
+} */
 
 .option__check {
   margin: 0;
@@ -72,15 +122,10 @@
   grid-row-end: 2;
 }
 
-
-
-
-
 .option__radio:checked + .option__check {
   background-image: url(../../images/check.png);
   background-color: #0075ff;
 }
-
 
 .option__option-title {
   margin: 0;

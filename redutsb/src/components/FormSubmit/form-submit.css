@@ -1,0 +1,52 @@
+.form-submit {
+  max-width: 385px;
+  max-height: 395px;
+  width: 25%;
+  margin: 0;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  border-radius: 5px;
+background: linear-gradient(135deg, #209EFA 0%, #0075FF 100%);
+}
+
+
+.form-submit__title {
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+/* Titles/H6 */
+font-family: Gilroy;
+font-size: 24px;
+font-weight: 700;
+line-height: 142.5%; 
+}
+
+.form-submit__input {
+    margin: 0 ;
+    padding: 0 20px;
+    border-radius: 5px;
+background: #3C9CFF;
+height: 52px;
+  border: none;
+  width: calc(85% - 40px);
+}
+
+.form-submit__input:focus-visible {
+    outline: none;
+    border: none;
+}
+
+.form-submit__btn {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    border-radius: 5px;
+background:  #FFF;
+border: none;
+height: 52px;
+width: 85%;
+}

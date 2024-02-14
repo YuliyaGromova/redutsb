@@ -15,16 +15,20 @@
   }
 
   input::-webkit-input-placeholder {
-    color: #ADADAF;
-    font-family: Gilroy;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.54px;
+
+    color: #FCFCFF;
+text-align: center;
+/* Web/Input_lines/input */
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.54px;
     
   }
   input::-moz-placeholder {
-    color: #ADADAF;
+    color: #FCFCFF;
     font-family: Gilroy;
     font-size: 18px;
     font-weight: 400;
@@ -32,7 +36,7 @@
     letter-spacing: 0.54px;
   }
   input::-ms-input-placeholder {
-    color: #ADADAF;
+    color: #FCFCFF;
     font-family: Gilroy;
     font-size: 18px;
     font-weight: 400;
@@ -40,7 +44,7 @@
     letter-spacing: 0.54px;
   }
   input::placeholder {
-    color: #ADADAF;
+    color: #FCFCFF;
     font-family: Gilroy;
     font-size: 18px;
     font-weight: 400;

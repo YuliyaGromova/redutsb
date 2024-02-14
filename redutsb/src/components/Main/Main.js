@@ -4,6 +4,8 @@ import Pages from "../Pages/Pages";
 import Banner from "../Banner/Banner";
 import Description from "../Description/Description";
 import Calculator from "../Calculator/Calculator";
+import Solutions from "../Solutions/Solutions";
+import Scheme from "../Scheme/Scheme";
 
 function Main() {
     return(
@@ -12,6 +14,8 @@ function Main() {
             <Banner></Banner>
             <Description></Description>
             <Calculator></Calculator>
+            <Solutions></Solutions>
+            <Scheme></Scheme>
         </section>
     )
 }

@@ -28,6 +28,9 @@ code {
 @import url(./components/Step/step.css);
 @import url(./components/OptionsList/option-list.css);
 @import url(./components/Option/option.css);
+@import url(./components/Solutions/solutions.css);
+@import url(./components/Scheme/scheme.css);
+@import url(./components/FormSubmit/form-submit.css);
 
 
 @import url(./components/Footer/footer.css);
