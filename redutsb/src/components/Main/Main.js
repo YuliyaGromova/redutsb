@@ -6,6 +6,7 @@ import Description from "../Description/Description";
 import Calculator from "../Calculator/Calculator";
 import Solutions from "../Solutions/Solutions";
 import Scheme from "../Scheme/Scheme";
+import Services from "../Services/Services";
 
 function Main() {
     return(
@@ -16,6 +17,7 @@ function Main() {
             <Calculator></Calculator>
             <Solutions></Solutions>
             <Scheme></Scheme>
+            <Services></Services>
         </section>
     )
 }
