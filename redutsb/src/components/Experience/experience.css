@@ -1,0 +1,30 @@
+.experience {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 92px;
+    background: linear-gradient(180.00deg, rgb(255, 201, 61),rgb(255, 177, 61) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.experience__star {
+   margin: 0;
+   padding: 0;
+   width: 26px;
+   height: 25px;
+}
+
+.experience__title {
+    margin: 0;
+    padding:0;
+color: rgb(255, 255, 255);
+font-family: Gilroy;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 2%;
+text-align: center;
+}

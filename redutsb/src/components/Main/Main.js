@@ -8,6 +8,7 @@ import Solutions from "../Solutions/Solutions";
 import Scheme from "../Scheme/Scheme";
 import Services from "../Services/Services";
 import Splurge from "../Splurge/Splurge";
+import Experience from "../Experience/Experience";
 
 function Main() {
     return(
@@ -20,6 +21,7 @@ function Main() {
             <Scheme></Scheme>
             <Services></Services>
             <Splurge></Splurge>
+            <Experience></Experience>
         </section>
     )
 }
