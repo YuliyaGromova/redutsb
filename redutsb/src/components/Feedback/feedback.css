@@ -1,0 +1,8 @@
+.feedback {
+    margin: 0 auto;
+  padding: 0;
+  width: 84%;
+  max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+}

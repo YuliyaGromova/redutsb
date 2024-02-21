@@ -10,6 +10,7 @@ import Services from "../Services/Services";
 import Splurge from "../Splurge/Splurge";
 import Experience from "../Experience/Experience";
 import Plan from "../Plan/Plan";
+import Feedback from "../Feedback/Feedback";
 
 function Main() {
     return(
@@ -24,6 +25,7 @@ function Main() {
             <Splurge></Splurge>
             <Experience></Experience>
             <Plan></Plan>
+            <Feedback></Feedback>
         </section>
     )
 }

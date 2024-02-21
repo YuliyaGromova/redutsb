@@ -5,7 +5,7 @@ function Scheme() {
     return (
         <section className="scheme">
             <div className="scheme__image"></div>
-            <FormSubmit></FormSubmit>
+            <FormSubmit nameButton="Отправить" kind="send" title="Оставить заявку" place="scheme"></FormSubmit>
         </section>
     )
 }
