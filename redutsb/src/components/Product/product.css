@@ -1,0 +1,39 @@
+.product {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.product__form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__name {
+    margin: 0;
+    padding: 0;
+    max-width: 431px;
+    color: rgb(37, 36, 38);
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 600;
+line-height: 137.3%;
+text-align: left;
+}
+
+.product__price {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 3px;
+    color: rgb(37, 36, 38);
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+}

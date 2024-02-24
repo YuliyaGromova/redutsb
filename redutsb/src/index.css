@@ -36,6 +36,9 @@ code {
 @import url(./components/Experience/experience.css);
 @import url(./components/Plan/plan.css);
 @import url(./components/Feedback/feedback.css);
+@import url(./components/Price/price.css);
+@import url(./components/Product/product.css);
+@import url(./components/ProductList/product-list.css);
 
 
 @import url(./components/Footer/footer.css);
